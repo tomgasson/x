@@ -1,0 +1,38 @@
+# Rust
+/target
+**/*.rs.bk
+Cargo.lock
+**/Cargo.lock
+
+# Node
+node_modules
+.pnpm-store
+dist/
+*.tsbuildinfo
+
+# Build outputs
+*.js.map
+*.d.ts.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+*.lcov
+
+# Temp
+.tmp/
+.temp/

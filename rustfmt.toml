@@ -1,0 +1,9 @@
+# rustfmt configuration
+edition = "2021"
+hard_tabs = true
+max_width = 100
+tab_spaces = 4
+newline_style = "Unix"
+use_small_heuristics = "Default"
+comment_width = 80
+wrap_comments = true

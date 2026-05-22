@@ -1,0 +1,32 @@
+{
+  "name": "@x/i18n",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Internationalization with fbtee and grats",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "echo 'linting @x/i18n'",
+    "test": "echo 'testing @x/i18n'",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "fbtee": "^1.8.0",
+    "grats": "^0.0.36",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

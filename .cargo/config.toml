@@ -1,0 +1,7 @@
+[alias]
+# oxfmt as rustfmt wrapper (when installed)
+fmt = "fmt"
+check = "check"
+
+[build]
+rustflags = ["-C", "codegen-units=1"]
